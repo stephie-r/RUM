@@ -165,32 +165,22 @@ input:last-child {
     text-transform: none;
 }
 
-#fs-frm [type="radio"] {
-    display: none;
-}
 
-#fs-frm #radio {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-family: 'Roboto Condensed', sans-serif;
-}
 
 
 #fs-frm #radio,
 #fs-frm #radio option {
-    width: auto;
+   text-align: center;
     padding: 0.5rem 2rem;
     margin: 0 auto;
-    background-color: #2626269e;
+    background-color: #4e4e4e9e;
     border: #262626 1px solid;
     border-radius: 1px;
     color: #fff;
     font-weight: 400;
     text-transform: uppercase;
-    margin: 0.5rem;
-
+    margin: 0.75rem 0;
+    height: 40px;
 }
 
 
