@@ -270,7 +270,7 @@
       <main>
         <section>
           <h1>Consultas, sugerencias y reclamos.</h1>
-          <h3>¿En quég te podemos ayudar?</h3>
+          <h3>¿En qué te podemos ayudar?</h3>
         </section> <!-- sección  
         --> <section>
           <form
@@ -290,7 +290,8 @@
                 required=""
                 required maxlength="80"
                 required minlength="7"
-              />
+                autocomplete=off
+                />
               <label for="telephone">DNI</label>
               <input
                 type="number"
@@ -298,7 +299,8 @@
                 id="telephone"
                 placeholder="13233454"
                 required=""
-              />
+                autocomplete=off
+                />
               <label for="email-address">Email</label>
               <input
                 type="email"
@@ -306,6 +308,7 @@
                 id="email-address"
                 placeholder="tumail@.com"
                 required=""
+                autocomplete=off
               />
               <label for="telephone">Celular</label>
               <input
@@ -315,6 +318,7 @@
                 placeholder="(+54) 911-111111"
                 required=""
                 min="10"
+                autocomplete=off
               />
               <!-- Tema de consulta -->
               <label for="motivo">¿Cual es tu consulta?</label>
@@ -338,7 +342,8 @@
                 id="complaint"
                 placeholder="Dejanos aquí tu comentario.."
                 required=""
-              ></textarea>
+                autocomplete=off
+                ></textarea>
 
               <input
                 type="hidden"
