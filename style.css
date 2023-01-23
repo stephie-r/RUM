@@ -63,6 +63,8 @@ h3 {
     font-weight: 200;
 }
 
+/* FORMULARIO  */
+
 #fs-frm input,
 #fs-frm select,
 #fs-frm textarea,
@@ -166,8 +168,6 @@ input:last-child {
 }
 
 
-
-
 #fs-frm #radio,
 #fs-frm #radio option {
    text-align: center;
@@ -190,6 +190,8 @@ input:last-child {
     color: #fcfcfc;
     letter-spacing: 2px;
 }
+
+
 
 
 /* footer  */
@@ -227,6 +229,60 @@ section a div {
     align-items: center;
 
 }
+
+/* pop up  */
+
+#pop-up{
+    background: #EFEFEF;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    bottom: 20%;
+    top: 15%;
+    margin:0 auto;
+    max-width: 300px;
+    width: 100%;
+    height: 300px;
+    border-radius: 0.5%;
+    text-align: center;
+    display: none;
+    justify-items: center;
+    align-items: center;
+}
+
+#space{
+    padding: 48px auto;
+}
+#space p{
+    padding: 0.5rem 0 0 0;
+}
+
+#space div div{
+    text-align: center;
+    padding: 0.5rem;
+    border: #111 1 solid;
+    background-color: #111;
+    color: #fcfcfc;
+    margin: 1rem 50px;
+}
+
+#space h5,
+    h5 a{
+    text-align: center;
+    color: #a3a3a3;
+    text-decoration: underline;
+}
+
+
+#page-mask {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    }
 
 
 
