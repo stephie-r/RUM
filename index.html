@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consultas y reclamos Recoleta Mall</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+
+  <body>
+    <div id="loader" class="center">
+      <svg
+        version="1.1"
+        baseProfile="basic"
+        id="help-team"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        viewBox="0 0 110.9 102"
+        xml:space="preserve"
+      >
+        <g id="logo">
+          <rect width="111" height="102" />
+          <g id="help-team-top">
+            <path
+              id="h_00000131353219446672472070000001630183394468767892_"
+              fill="#FCFCFC"
+              d="M35.4,21.7v-4.3h-2v4.3h-2.9V11.5h2.9v3.9h2
+                    v-3.9h2.9v10.2H35.4z"
+            />
+            <path
+              id="e_00000082339218516031429030000008134033911433556639_"
+              fill="#FCFCFC"
+              d="M46.9,13.7h-3.5v1.8h3.1v1.9h-3.1v2.2h3.7
+                    v2.2h-6.6V11.5h6.7L46.9,13.7z"
+            />
+            <path
+              id="l_00000062882067382882020620000013299163418423241609_"
+              fill="#FCFCFC"
+              d="M54.4,21.7h-5.7V11.5h2.9v8.1h3.1L54.4,21.7z
+                    "
+            />
+            <path
+              id="p_00000147903230822659017170000008979768421911593909_"
+              fill="#FCFCFC"
+              d="M58.8,18.8v3h-2.9V11.5h3.2
+                    c2.4,0,4.1,0.4,4.1,3.5C63.2,18,61.6,18.7,58.8,18.8z M59.1,13.4h-0.2V17c1.2,0,1.5-0.3,1.5-1.9C60.3,13.5,60,13.4,59.1,13.4z"
+            />
+            <path
+              id="t_00000167387504827524075110000009081504513255843248_"
+              fill="#FCFCFC"
+              d="M69.9,12.6h-2v9.1h-1.2v-9.1h-2.1v-1.1h5.4
+                    L69.9,12.6z"
+            />
+            <path
+              id="e_00000094611491594746046410000001270589469023314333_"
+              fill="#FCFCFC"
+              d="M72,21.7V11.5h4.1v1.1h-2.9v3.2h2.6v1h-2.6
+                    v3.9h2.9v1.1H72z"
+            />
+            <path
+              id="a_00000008143712302132683980000002431985171053182880_"
+              fill="#FCFCFC"
+              d="M82.8,21.7l-0.5-2.4h-2.8L79,21.7h-1.3
+                    l2.5-10.2h1.4l2.5,10.2H82.8z M81.3,14.6c-0.2-1-0.5-2.4-0.5-2.4s-0.2,1.4-0.5,2.4l-0.8,3.7h2.5L81.3,14.6z"
+            />
+            <path
+              id="m_00000147189605373434866430000004841022291041290124_"
+              fill="#FCFCFC"
+              d="M92.7,21.7l-0.1-5.4c0-1.1,0-2.7,0-2.7
+                    s-0.5,1.4-0.8,2l-1.8,4.1l-1.8-4.1c-0.3-0.7-0.7-2-0.7-2s0,1.6,0,2.6l-0.1,5.4h-1.2l0.4-10.2h0.9l2.5,6.2l2.5-6.2h0.9l0.4,10.2
+                    H92.7z"
+            />
+          </g>
+          <g id="help-team-left">
+            <path
+              id="h"
+              fill="#FCFCFC"
+              d="M94.3,85.1H90v2h4.3v2.9H84.1v-2.9H88v-2h-3.9v-2.9h10.2V85.1z"
+            />
+            <path
+              id="e_00000009569897288657354780000007009384816560587393_"
+              fill="#FCFCFC"
+              d="M86.3,73.6v3.5H88V74H90v3.1h2.2v-3.7h2.2V80
+                    H84.1v-6.7L86.3,73.6z"
+            />
+            <path
+              id="l_00000150078988115172131160000006554108815147111350_"
+              fill="#FCFCFC"
+              d="M94.3,66.2v5.7H84.1V69h8.1v-3.1L94.3,66.2z"
+            />
+            <path
+              id="p"
+              fill="#FCFCFC"
+              d="M91.4,61.7h3v2.9H84.1v-3.2c0-2.4,0.4-4.1,3.5-4.1C90.5,57.3,91.3,58.9,91.4,61.7z M86,61.5v0.2
+                    h3.6c0-1.2-0.3-1.5-1.9-1.5C86.1,60.2,86,60.5,86,61.5z"
+            />
+            <path
+              id="t_00000061453666351311118460000016370212873375030679_"
+              fill="#FCFCFC"
+              d="M85.2,50.6v2h9.1v1.2h-9.1v2.1h-1.1v-5.4
+                    L85.2,50.6z"
+            />
+            <path
+              id="e_00000177458948573857588820000001526830858380006056_"
+              fill="#FCFCFC"
+              d="M94.3,48.5H84.1v-4.1h1.1v2.9h3.2v-2.6h1v2.6
+                    h3.9v-2.9h1.1V48.5z"
+            />
+            <path
+              id="a_00000073682546637320863080000015944450188177548417_"
+              fill="#FCFCFC"
+              d="M94.3,37.7l-2.4,0.5V41l2.4,0.5v1.3
+                    l-10.2-2.5v-1.4l10.2-2.5V37.7z M87.2,39.2c-1,0.2-2.4,0.5-2.4,0.5s1.4,0.2,2.4,0.5l3.7,0.8v-2.5L87.2,39.2z"
+            />
+            <path
+              id="m"
+              fill="#FCFCFC"
+              d="M94.3,27.8L89,27.9c-1.1,0-2.7,0-2.7,0s1.4,0.5,2,0.8l4.1,1.8l-4.1,1.8c-0.7,0.3-2,0.7-2,0.7
+                    s1.6,0,2.6,0l5.4,0.1v1.2l-10.2-0.4v-0.9l6.2-2.5l-6.2-2.5V27l10.2-0.4V27.8z"
+            />
+          </g>
+          <g id="reco-right">
+            <path
+              id="r"
+              fill="#FCFCFC"
+              d="M27,71.5l-2,0.4c-1.1,0.2-1.6,0.5-1.9,0.7l0,0.5H27V76H16.7v-3.2c0-2.2,0.4-4.2,3-4.2
+                    c1.7,0,2.4,0.6,2.8,1.6c0.4-0.6,1.2-0.9,2.3-1.2l2.1-0.6V71.5z M18.7,72.8V73h2.8c-0.2-1.3-0.5-1.6-1.7-1.6
+                    C19,71.4,18.7,71.7,18.7,72.8z"
+            />
+            <path
+              id="e_00000077287416228209246280000013819052301175980959_"
+              fill="#FCFCFC"
+              d="M18.9,60.2v3.5h1.8v-3.1h1.9v3.1h2.2V60H27
+                    v6.6H16.7V60L18.9,60.2z"
+            />
+            <path
+              id="c_00000134251840046685687260000010471305240593362605_"
+              fill="#FCFCFC"
+              d="M27.1,54.7c0,1.8-0.5,4.2-5.3,4.2
+                    c-4.8,0-5.3-2.9-5.3-4.4c0-1.1,0.4-2,0.4-2h2c0,0-0.3,1.1-0.3,1.8c0,0.9,0.5,1.7,3.2,1.7c2.6,0,3.1-0.5,3.1-1.6
+                    c0-0.9-0.4-1.9-0.4-1.9h2.1C26.7,52.4,27.1,53.4,27.1,54.7z"
+            />
+            <path
+              id="o_00000088852677324157649880000015854778478872678792_"
+              fill="#FCFCFC"
+              d="M27.1,47.6c0,1.7-0.3,4.1-5.3,4.1
+                    c-4.9,0-5.3-2.4-5.3-4.1c0-1.7,0.4-4.1,5.3-4.1C26.8,43.5,27.1,45.9,27.1,47.6z M18.5,47.6c0,0.9,0.6,1.2,3.4,1.2
+                    c2.9,0,3.4-0.4,3.4-1.2c0-0.8-0.4-1.2-3.4-1.2C19,46.4,18.5,46.7,18.5,47.6z"
+            />
+            <path
+              id="l_00000041291992821173161240000013940650204382126267_"
+              fill="#FCFCFC"
+              d="M27,35.9v5.7H16.7v-2.9h8.1v-3.1L27,35.9z"
+            />
+            <path
+              id="e_00000136378266723846743980000007861848821832801680_"
+              fill="#FCFCFC"
+              d="M18.9,28.3v3.5h1.8v-3.1h1.9v3.1h2.2v-3.7H27
+                    v6.6H16.7v-6.7L18.9,28.3z"
+            />
+            <path
+              id="t_00000046333653627021612450000004608582697681232811_"
+              fill="#FCFCFC"
+              d="M18.9,19.9v2h8v2.9h-8v2.3h-2.2v-7.6
+                    L18.9,19.9z"
+            />
+            <path
+              id="a_00000004531246984943377000000005740100733166825656_"
+              fill="#FCFCFC"
+              d="M27,14.5l-1.7,0.3v2.3l1.7,0.3v3l-10.2-2.6
+                    V14L27,11.5V14.5z M21.8,15.3c-1.1,0.2-3.5,0.6-3.5,0.6s2.4,0.4,3.5,0.6l1.5,0.2v-1.7L21.8,15.3z"
+            />
+          </g>
+          <g id="reco-bot">
+            <path
+              id="R"
+              fill="#FCFCFC"
+              d="M22.5,90.4l-0.4-2c-0.2-1.1-0.5-1.6-0.7-1.9l-0.5,0v3.8H18V80.1h3.2c2.2,0,4.2,0.4,4.2,3
+                    c0,1.7-0.6,2.4-1.6,2.8c0.6,0.4,0.9,1.2,1.2,2.3l0.6,2.1H22.5z M21.2,82.1H21v2.8c1.3-0.2,1.6-0.5,1.6-1.7
+                    C22.6,82.4,22.3,82.1,21.2,82.1z"
+            />
+            <path
+              id="e"
+              fill="#FCFCFC"
+              d="M33.8,82.3h-3.5v1.8h3.1V86h-3.1v2.2H34v2.2h-6.6V80.1H34L33.8,82.3z"
+            />
+            <path
+              id="c"
+              fill="#FCFCFC"
+              d="M39.3,90.5c-1.8,0-4.2-0.5-4.2-5.3c0-4.8,2.9-5.3,4.4-5.3c1.1,0,2,0.4,2,0.4v2c0,0-1.1-0.3-1.8-0.3
+                    c-0.9,0-1.7,0.5-1.7,3.2c0,2.6,0.5,3.1,1.6,3.1c0.9,0,1.9-0.4,1.9-0.4v2.1C41.6,90.1,40.6,90.5,39.3,90.5z"
+            />
+            <path
+              id="o"
+              fill="#FCFCFC"
+              d="M46.4,90.5c-1.7,0-4.1-0.3-4.1-5.3s2.4-5.3,4.1-5.3c1.7,0,4.1,0.4,4.1,5.3
+                    C50.5,90.2,48.1,90.5,46.4,90.5z M46.4,81.9c-0.9,0-1.2,0.6-1.2,3.4c0,2.9,0.4,3.4,1.2,3.4c0.8,0,1.2-0.4,1.2-3.4
+                    C47.6,82.4,47.3,81.9,46.4,81.9z"
+            />
+            <path
+              id="l"
+              fill="#FCFCFC"
+              d="M58.1,90.4h-5.7V80.1h2.9v8.1h3.1L58.1,90.4z"
+            />
+            <path
+              id="e_00000111180101926035015140000006029672616504057011_"
+              fill="#FCFCFC"
+              d="M65.7,82.3h-3.5v1.8h3.1V86h-3.1v2.2h3.7v2.2
+                    h-6.6V80.1h6.7L65.7,82.3z"
+            />
+            <path
+              id="t"
+              fill="#FCFCFC"
+              d="M74.1,82.3h-2v8h-2.9v-8h-2.3v-2.2h7.6L74.1,82.3z"
+            />
+            <path
+              id="a"
+              fill="#FCFCFC"
+              d="M79.5,90.4l-0.3-1.7h-2.3l-0.3,1.7h-3l2.6-10.2H80l2.6,10.2H79.5z M78.7,85.2
+                    c-0.2-1.1-0.6-3.5-0.6-3.5s-0.4,2.4-0.6,3.5l-0.2,1.5h1.7L78.7,85.2z"
+            />
+          </g>
+          <g>
+            <path
+              id="mid"
+              fill="#FCFCFC"
+              d="M55.4,60.1c2.1,0,3.7-1.7,3.7-3.7h-7.4C51.7,58.5,53.3,60.1,55.4,60.1z"
+            />
+            <path
+              id="persona-right"
+              fill="#FCFCFC"
+              d="M70.6,48.3c3-2.5,3.6-6.9,1.3-10.1c-1.2-1.6-2.9-2.7-4.8-3c-2-0.3-3.9,0.1-5.5,1.3
+                    c-3.3,2.4-4.1,7.1-1.7,10.4c0.4,0.5,0.8,0.9,1.2,1.3c-0.5,0.2-0.9,0.5-1.4,0.7c0.8,0.5,1.4,1.1,2,1.9c2.3,3.2,1.7,7.6-1.3,10.1
+                    c2.2,1,4,2.6,5.2,4.6h10.5c0.8,0,1.5-0.7,1.5-1.5V59C77.5,54.3,74.8,50.2,70.6,48.3z M67.3,47.2c-2.1,0-3.7-1.7-3.7-3.7H71
+                    C71,45.5,69.3,47.2,67.3,47.2z"
+            />
+            <path
+              id="persona-left"
+              fill="#FCFCFC"
+              d="M51.6,38.2c-1.2-1.6-2.9-2.7-4.8-3c-2-0.3-3.9,0.1-5.5,1.3c-3.3,2.4-4.1,7.1-1.7,10.4
+                    c0.4,0.5,0.8,0.9,1.2,1.3c-4.2,1.8-7.1,6.1-7.1,10.7v5.1c0,0.8,0.7,1.5,1.5,1.5h10.3c1.2-2,3.1-3.7,5.3-4.7
+                    c-0.5-0.4-0.9-0.8-1.2-1.3c-2.4-3.3-1.6-8,1.7-10.4c0.1-0.1,0.2-0.1,0.3-0.2c-0.4-0.2-0.8-0.5-1.2-0.7
+                    C53.3,45.8,53.9,41.4,51.6,38.2z M43.7,47.2c-2.1,0-3.7-1.7-3.7-3.7h7.4C47.4,45.5,45.8,47.2,43.7,47.2z"
+            />
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div class="wrapper">
+      <!-- header  -->
+      <header>
+        <img src="logos/RUM-logo.png" alt="" srcset="">
+      </header>
+      <!-- main  -->
+      <main>
+        <section>
+          <h1>Consultas, sugerencias y reclamos.</h1>
+          <h3>¿En quég te podemos ayudar?</h3>
+        </section> <!-- sección  
+        --> <section>
+          <form
+            id="fs-frm"
+            name="complaint-form"
+            accept-charset="utf-8"
+            action="https://formspree.io/f/moqzvdlw"
+            method="post"
+          >
+            <fieldset id="fs-frm-inputs">
+              <label for="full-name">Nombre completo</label>
+              <input
+                type="text"
+                name="name"
+                id="full-name"
+                placeholder="Nombre y apellido"
+                required=""
+                required maxlength="80"
+                required minlength="7"
+              />
+              <label for="telephone">DNI</label>
+              <input
+                type="number"
+                name="dni"
+                id="telephone"
+                placeholder="13233454"
+                required=""
+              />
+              <label for="email-address">Email</label>
+              <input
+                type="email"
+                name="_replyto"
+                id="email-address"
+                placeholder="tumail@.com"
+                required=""
+              />
+              <label for="telephone">Celular</label>
+              <input
+                type="number"
+                name="telephone"
+                id="telephone"
+                placeholder="(+54) 911-111111"
+                required=""
+                min="10"
+              />
+              <!-- Tema de consulta -->
+              <label for="motivo">¿Cual es tu consulta?</label>
+              <select id="radio" name="motivo">
+                <option name="motif" value="" >---------</option>
+                <option name="motif" value="estacionamiento">Estacionamiento</option>
+                <option name="motif" value="horarios">Horarios</option>
+                <option name="motif" value="programa">Soy&nbsp;Shopping</option>
+                <option name="motif" value="cines">Cines</option>
+                <option name="motif" value="comuna">Comuna</option>
+                <option name="motif" value="servicios">Servicios</option>
+                <option name="motif" value="locales">Locales</option>
+                <option name="motif" value="promociones">Promociones</option>
+                <option name="motif" value="otros">Otros</option>
+              </select>
+
+              <label for="mensaje"></label>
+              <textarea
+                rows="4"
+                name="mensaje"
+                id="complaint"
+                placeholder="Dejanos aquí tu comentario.."
+                required=""
+              ></textarea>
+
+              <input
+                type="hidden"
+                name="_subject"
+                id="email-subject"
+                value="Formulario de Consultas y Reclamos"
+              />
+            </fieldset>
+            <input type="submit" value="Enviar" />
+          </form>
+          <br/>
+          <a href="https://www.recoletamall.com.ar/">
+            <div class="circle-back">
+              <span class="material-symbols-outlined"> arrow_back </span>
+            </div>
+          </a>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      document.onreadystatechange = function () {
+        if (document.readyState !== "complete") {
+          document.querySelector("body").style.visibility = "hidden";
+          document.querySelector("#loader").style.visibility = "visible";
+        } else {
+          document.querySelector("#loader").style.display = "none";
+          document.querySelector("body").style.visibility = "visible";
+        }
+      };
+    </script>
+    <script>
+      const $form = document.querySelector("#form");
+      $form.addEventListener("submit", handleSubmit);
+
+      async function handleSubmit(event) {
+        event.preventDefault();
+        const form = new FormData(this);
+        const response = await fetch(this.action, {
+          method: this.method,
+          body: form,
+          headers: {
+            Accept: "application/json",
+          },
+        });
+        if (response.ok) {
+          this.reset();
+          alert("Gracias por tu mensaje.Te contactamos pronto");
+        }
+      }
+    </script>
+
+  </body>
+</html>
